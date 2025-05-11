@@ -116,7 +116,7 @@ Reload IIS (Open IIS, Stop and Start the server)
 <br />
 
 <p>
-<img src="https://i.imgur.com/qniSBjK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wb8B9C2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Install osTicket v1.15.8:
@@ -129,10 +129,48 @@ Install osTicket v1.15.8:
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MXrKrSI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-osTicket is now installed! Browse to help desk login page: http://localhost/osTicket/scp/login.php
+Reload IIS (Open IIS, Stop and Start the server)
+
+- Go to sites -> Default -> osTicket
+- On the right, click “Browse *:80”
+
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/hVBs6vD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Note that some extensions are not enabled
+
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/ALG8n4S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Enable extensions:
+  
+- Go back to IIS, sites -> Default -> osTicket
+- Double-click PHP Manager
+- Click “Enable or disable an extension”
+- Enable: php_imap.dll
+- Enable: php_intl.dll
+- Enable: php_opcache.dll
+- Refresh the osTicket site in your browser, observe the changes
+
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/MXrKrSI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Reload IIS (Open IIS, Stop and Start the server)
+
+- Go to sites -> Default -> osTicket
+- On the right, click “Browse *:80”
 
 </p>
 <br />
