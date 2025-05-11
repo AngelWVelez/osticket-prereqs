@@ -107,19 +107,23 @@ Open IIS as an Admin:
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jFTfOfB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-osTicket is now installed! Browse to help desk login page: http://localhost/osTicket/scp/login.php
+Reload IIS (Open IIS, Stop and Start the server)
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qniSBjK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-osTicket is now installed! Browse to help desk login page: http://localhost/osTicket/scp/login.php
+Install osTicket v1.15.8:
+  
+- From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip”
+- copy the “upload” folder into “c:\inetpub\wwwroot”
+- Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 
 </p>
 <br />
