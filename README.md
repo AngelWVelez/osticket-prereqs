@@ -22,27 +22,27 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Log into the VM with Remote Desktop
 - Have osTicket-Installation-Files
 - Install / Enable IIS in Windows WITH CGI
-- Create the directory C:\PHP  
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hnalqjC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 From the “osTicket-Installation-Files” folder:
   
-- unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder From the “osTicket-Installation-Files” folder,
-- install VC_redist.x86.exe. From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+- install PHP Manager for IIS 
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Y8U3HuO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open IIS as an Admin and Register PHP from within IIS.Reload IIS (Open IIS, Stop and Start the server)than Install osTicket v1.15.8
+From the “osTicket-Installation-Files” folder:
+
+-  install the Rewrite Module (rewrite_amd64_en-US.msi)
 
 </p>
 <br />
