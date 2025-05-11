@@ -59,15 +59,38 @@ In the C drive:
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/p46gTHt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-From the “osTicket-Installation-Files” folder, install HeidiSQL:
+From the “osTicket-Installation-Files” folder:
   
-- Open Heidi SQL
-- Create a new session, root/root
-- Connect to the session
-- Create a database called “osTicket”
+- unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/p1gzsHn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  
+From the “osTicket-Installation-Files” folder:
+
+-   install VC_redist.x86.exe.
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/T5zhXPz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+From the “osTicket-Installation-Files” folder:
+  
+- install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+- Typical Setup
+- Launch Configuration Wizard (after install)
+- Standard Configuration
 
 </p>
 <br />
@@ -76,12 +99,25 @@ From the “osTicket-Installation-Files” folder, install HeidiSQL:
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Continue Setting up osTicket in the browser:
-  
-- MySQL Database: osTicket
-- MySQL Username: root
-- MySQL Password: root
-- Click “Install Now!”
+osTicket is now installed! Browse to help desk login page: http://localhost/osTicket/scp/login.php
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+osTicket is now installed! Browse to help desk login page: http://localhost/osTicket/scp/login.php
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+osTicket is now installed! Browse to help desk login page: http://localhost/osTicket/scp/login.php
 
 </p>
 <br />
