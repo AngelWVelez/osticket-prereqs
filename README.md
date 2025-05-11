@@ -96,10 +96,12 @@ From the “osTicket-Installation-Files” folder:
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SChp8Go.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-osTicket is now installed! Browse to help desk login page: http://localhost/osTicket/scp/login.php
+Open IIS as an Admin:
+
+- Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
 
 </p>
 <br />
