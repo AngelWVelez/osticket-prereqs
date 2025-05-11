@@ -163,14 +163,38 @@ Enable extensions:
 
 </p>
 <br />
+
 <p>
-<img src="https://i.imgur.com/MXrKrSI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rlS6KgK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Reload IIS (Open IIS, Stop and Start the server)
-
-- Go to sites -> Default -> osTicket
-- On the right, click “Browse *:80”
+Rename: ost-config.php:
+  
+- From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+- To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/UxrrAr8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ Assign Permissions: ost-config.php:
+  
+- Disable inheritance -> Remove All
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/srjIpK4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ Assign Permissions: ost-config.php:
+  
+- New Permissions -> Everyone -> All
+
+</p>
+<br />
+
