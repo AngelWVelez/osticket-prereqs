@@ -48,13 +48,12 @@ From the “osTicket-Installation-Files” folder:
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Gx8TUp1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Reload IIS than Enable: php_imap.dll, php_intl.dll, php_opcache.dll.After this you will need to Rename: ost-config.php:
+In the C drive:
   
-- From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
-- To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Create the directory C:\PHP
 
 </p>
 <br />
