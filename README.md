@@ -198,3 +198,50 @@ Rename: ost-config.php:
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/diyFO4U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Continue Setting up osTicket in the browser (click Continue):
+  
+ - Name Helpdesk
+ - Default email (receives email from customers)
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/I8WEQcj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+From the “osTicket-Installation-Files” folder:
+  
+- Install HeidiSQL.
+- Open Heidi SQL
+- Create a new session, root/root
+- Connect to the session
+- Create a database called “osTicket”
+
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/cn0ZaHz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Continue Setting up osTicket in the browser:
+  
+- MySQL Database: osTicket
+- MySQL Username: root
+- MySQL Password: root
+- Click “Install Now!”
+
+</p>
+<br />
+
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/1m00kCE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+OsTicket is now installed!
